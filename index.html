@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PW Vertical Intelligence Portal - Physics Wallah Strategic Dashboard</title>
+  <link rel="stylesheet" href="index.css">
+  <meta name="description" content="Physics Wallah business, operational and AI automation strategic assessment dashboard.">
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- Sidebar Navigation Drawer -->
+    <aside class="sidebar">
+      <div class="brand-section">
+        <div class="brand-logo-circle">PW</div>
+        <div class="brand-title-group">
+          <h1>PW Intelligence</h1>
+          <span>Operations & AI Portal</span>
+        </div>
+      </div>
+      
+      <nav class="nav-menu-wrapper">
+        
+        <div class="nav-module-title">Strategic Position</div>
+        <ul class="nav-list">
+          <li class="nav-item active" data-section="consolidation">
+            <a href="#" class="nav-link">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="5"></rect><rect x="14" y="12" width="7" height="9"></rect><rect x="3" y="16" width="7" height="5"></rect></svg>
+              <span>Consolidated FY26</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="overview">
+            <a href="#" class="nav-link">
+              <svg><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              <span>1. Overview</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="leadership">
+            <a href="#" class="nav-link">
+              <svg><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              <span>2. Leadership</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="target-audience">
+            <a href="#" class="nav-link">
+              <svg><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path><path d="M12 6a6 6 0 1 0 6 6 6 6 0 0 0-6-6zm0 10a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"></path></svg>
+              <span>3. Target Audience</span>
+            </a>
+          </li>
+        </ul>
+        
+        <div class="nav-module-title">Offerings & Channels</div>
+        <ul class="nav-list">
+          <li class="nav-item" data-section="products-services">
+            <a href="#" class="nav-link">
+              <svg><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+              <span>4. Products & Services</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="customer-acquisition">
+            <a href="#" class="nav-link">
+              <svg><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              <span>5. Customer Acquisition</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="lead-generation">
+            <a href="#" class="nav-link">
+              <svg><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <span>6. Lead Generation</span>
+            </a>
+          </li>
+        </ul>
+        
+        <div class="nav-module-title">Sales Architecture</div>
+        <ul class="nav-list">
+          <li class="nav-item" data-section="sales-counselling">
+            <a href="#" class="nav-link">
+              <svg><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              <span>7. Sales & Counselling</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="conversion-funnel">
+            <a href="#" class="nav-link">
+              <svg><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+              <span>8. Conversion Funnel</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="revenue-model">
+            <a href="#" class="nav-link">
+              <svg><line x1="12" y1="1" x2="12" y2="23"></svg>
+              <span>9. Revenue Model</span>
+            </a>
+          </li>
+        </ul>
+        
+        <div class="nav-module-title">Execution & Success</div>
+        <ul class="nav-list">
+          <li class="nav-item" data-section="operations">
+            <a href="#" class="nav-link">
+              <svg><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+              <span>10. Operations</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="student-success">
+            <a href="#" class="nav-link">
+              <svg><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <span>11. Student Success</span>
+            </a>
+          </li>
+        </ul>
+        
+        <div class="nav-module-title">Analytics & Risks</div>
+        <ul class="nav-list">
+          <li class="nav-item" data-section="data-generated">
+            <a href="#" class="nav-link">
+              <svg><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+              <span>12. Data Generated</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="kpis-metrics">
+            <a href="#" class="nav-link">
+              <svg><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              <span>13. KPIs & Metrics</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="challenges">
+            <a href="#" class="nav-link">
+              <svg><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+              <span>14. Challenges</span>
+            </a>
+          </li>
+        </ul>
+        
+        <div class="nav-module-title">AI Transform</div>
+        <ul class="nav-list">
+          <li class="nav-item" data-section="ai-opportunities">
+            <a href="#" class="nav-link">
+              <svg><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+              <span>15. AI Opportunities</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="ai-projects">
+            <a href="#" class="nav-link">
+              <svg><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              <span>16. Recommended AI Projects</span>
+            </a>
+          </li>
+        </ul>
+        
+        <div class="nav-module-title">Workflows</div>
+        <ul class="nav-list">
+          <li class="nav-item" data-section="interactions">
+            <a href="#" class="nav-link">
+              <svg><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              <span>17. Department Interactions</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="business-flow">
+            <a href="#" class="nav-link">
+              <svg><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+              <span>18. Business Flow</span>
+            </a>
+          </li>
+        </ul>
+        
+        <div class="nav-module-title">Reports</div>
+        <ul class="nav-list">
+          <li class="nav-item" data-section="swot">
+            <a href="#" class="nav-link">
+              <svg><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+              <span>19. SWOT Analysis</span>
+            </a>
+          </li>
+          <li class="nav-item" data-section="executive-summary">
+            <a href="#" class="nav-link">
+              <svg><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              <span>20. Executive Summary</span>
+            </a>
+          </li>
+        </ul>
+        
+      </nav>
+      
+      <div class="sidebar-footer">
+        <p>Current Time: 2026-06-13</p>
+        <p>Created by Senior Analyst Team</p>
+      </div>
+    </aside>
+    
+    <!-- Main Dashboard Viewport -->
+    <main class="viewport-panel">
+      
+      <!-- Top header dashboard bar -->
+      <header class="top-header">
+        <div class="controls-group">
+          <div class="vertical-selector-container" id="verticalSelector">
+            <button class="vertical-select-btn" id="verticalSelectBtn">
+              <span id="selectedVerticalLabel">JEE/NEET/Foundation</span>
+              <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="vertical-dropdown-menu" id="verticalDropdownMenu">
+              <div class="vertical-dropdown-option active" data-value="jee-neet">JEE/NEET/Foundation (Online)</div>
+              <div class="vertical-dropdown-option" data-value="vidyapeeth">PW Vidyapeeth (Offline)</div>
+              <div class="vertical-dropdown-option" data-value="pw-skills">PW Skills (Upskilling)</div>
+              <div class="vertical-dropdown-option" data-value="upsc">UPSC (PW OnlyIAS)</div>
+              <div class="vertical-dropdown-option" data-value="curiousjr">CuriousJr (K-10 & Coding)</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="search-container">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search sections (e.g. SWOT)...">
+        </div>
+      </header>
+      
+      <!-- Dynamic Content Viewport -->
+      <div class="content-wrapper">
+        
+        <!-- Consolidated Overview -->
+        <section class="section-pane active" id="consolidation">
+          <div class="section-header">
+            <span class="section-subtitle">Physics Wallah Ecosystem</span>
+            <h2 class="section-title">Consolidated Strategic Dashboard (FY26)</h2>
+          </div>
+          
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg></div>
+                <div class="card-stat-header">
+                  <h3 class="card-title">Operating Revenue</h3>
+                  <span class="metric-delta up">
+                    <svg style="width: 10px; height: 10px; stroke: currentColor; stroke-width: 3;" viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                    35% YoY
+                  </span>
+                </div>
+              </div>
+              <div class="card-stat">₹3,900 <span style="font-size: 1.25rem; font-weight: 600; color: var(--text-secondary);">Cr</span></div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Narrowed consolidated loss to ₹24 Cr (PAT positive Q2 FY26)</p>
+            </div>
+
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg></div>
+                <div class="card-stat-header">
+                  <h3 class="card-title">EBITDA</h3>
+                  <span class="metric-delta up">
+                    <svg style="width: 10px; height: 10px; stroke: currentColor; stroke-width: 3;" viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                    184% YoY
+                  </span>
+                </div>
+              </div>
+              <div class="card-stat">₹549 <span style="font-size: 1.25rem; font-weight: 600; color: var(--text-secondary);">Cr</span></div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">EBITDA margin expanded to 14% (up from 7% in FY25)</p>
+            </div>
+
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box emerald"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg></div>
+                <div class="card-stat-header">
+                  <h3 class="card-title">Paid Student Base</h3>
+                  <span class="metric-delta up">
+                    <svg style="width: 10px; height: 10px; stroke: currentColor; stroke-width: 3;" viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                    20% YoY
+                  </span>
+                </div>
+              </div>
+              <div class="card-stat">5.34 <span style="font-size: 1.25rem; font-weight: 600; color: var(--text-secondary);">M</span></div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Includes 4.87M online transacting users, 142M+ social reach</p>
+            </div>
+
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></div>
+                <div class="card-stat-header">
+                  <h3 class="card-title">Offline Hubs</h3>
+                  <span class="metric-delta up">
+                    <svg style="width: 10px; height: 10px; stroke: currentColor; stroke-width: 3;" viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                    42% YoY
+                  </span>
+                </div>
+              </div>
+              <div class="card-stat">353 <span style="font-size: 1.25rem; font-weight: 600; color: var(--text-secondary);">Centres</span></div>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Physical & Hybrid (Vidyapeeth/Pathshala) offline expansion</p>
+            </div>
+          </div>
+          
+          <div class="chart-card-grid">
+            <div class="chart-card">
+              <h4 class="chart-card-title">FY26 Revenue Mix (₹3,900 Cr Total)</h4>
+              <div class="donut-chart-container">
+                <div class="donut-chart">
+                  <div class="donut-hole">
+                    <span class="donut-hole-val">50.1%</span>
+                    <span class="donut-hole-lbl">Online</span>
+                  </div>
+                </div>
+                <div class="chart-legend">
+                  <div class="legend-item">
+                    <span class="legend-color blue"></span>
+                    <span>Online Sales (₹1,954 Cr) - 50.1%</span>
+                  </div>
+                  <div class="legend-item">
+                    <span class="legend-color purple"></span>
+                    <span>Offline Sales (₹1,774 Cr) - 45.5%</span>
+                  </div>
+                  <div class="legend-item">
+                    <span class="legend-color amber"></span>
+                    <span>Other Verticals & B2B (₹172 Cr) - 4.4%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="chart-card">
+              <h4 class="chart-card-title">Consolidated Revenue Scale Trend (₹ Cr)</h4>
+              <div class="svg-chart-wrapper">
+                <svg viewBox="0 0 400 180">
+                  <defs>
+                    <linearGradient id="line-grad" x1="0" y1="0" x2="1" y2="0">
+                      <stop offset="0%" stop-color="#3b82f6" />
+                      <stop offset="100%" stop-color="#8b5cf6" />
+                    </linearGradient>
+                    <linearGradient id="area-grad" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="rgba(59, 130, 246, 0.25)" />
+                      <stop offset="100%" stop-color="rgba(59, 130, 246, 0.0)" />
+                    </linearGradient>
+                  </defs>
+                  <!-- Grid Lines -->
+                  <line class="svg-grid-line" x1="40" y1="20" x2="380" y2="20" />
+                  <line class="svg-grid-line" x1="40" y1="60" x2="380" y2="60" />
+                  <line class="svg-grid-line" x1="40" y1="100" x2="380" y2="100" />
+                  <line class="svg-grid-line" x1="40" y1="140" x2="380" y2="140" />
+                  
+                  <!-- Y-Axis Labels -->
+                  <text class="svg-axis-lbl" x="10" y="23">4,000</text>
+                  <text class="svg-axis-lbl" x="10" y="63">2,800</text>
+                  <text class="svg-axis-lbl" x="10" y="103">1,600</text>
+                  <text class="svg-axis-lbl" x="15" y="143">400</text>
+                  
+                  <!-- Area path under chart line -->
+                  <path class="svg-chart-area" d="M 50,135 L 150,110 L 250,85 L 350,22 L 350,150 L 50,150 Z" />
+                  
+                  <!-- Chart Line -->
+                  <path class="svg-chart-line" d="M 50,135 L 150,110 L 250,85 L 350,22" />
+                  
+                  <!-- Plot Points -->
+                  <circle class="svg-point" cx="50" cy="135" r="4.5" />
+                  <circle class="svg-point" cx="150" cy="110" r="4.5" />
+                  <circle class="svg-point" cx="250" cy="85" r="4.5" />
+                  <circle class="svg-point" cx="350" cy="22" r="4.5" />
+                  
+                  <!-- X-Axis Labels -->
+                  <text class="svg-axis-lbl" x="42" y="165">FY23 (772)</text>
+                  <text class="svg-axis-lbl" x="135" y="165">FY24 (1,941)</text>
+                  <text class="svg-axis-lbl" x="235" y="165">FY25 (2,887)</text>
+                  <text class="svg-axis-lbl" x="332" y="165">FY26 (3,900)</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="pillars-section">
+            <h3 class="pillars-title">Core Strategic Pillars</h3>
+            <div class="pillars-grid">
+              <div class="pillar-card">
+                <div class="pillar-card-header">
+                  <div class="pillar-icon-box purple">
+                    <svg viewBox="0 0 24 24" style="width:16px; height:16px; stroke:currentColor; stroke-width:2.5; fill:none;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                  </div>
+                  <h4 class="pillar-title">Deep AI Integration</h4>
+                </div>
+                <p class="pillar-desc">Leveraging proprietary tools like "AI Guru" (personal doubts bot) and "AI Grader" (for Mains evaluation) to resolve 90% of students doubts instantly and drive administrative cost reductions.</p>
+              </div>
+              
+              <div class="pillar-card">
+                <div class="pillar-card-header">
+                  <div class="pillar-icon-box blue">
+                    <svg viewBox="0 0 24 24" style="width:16px; height:16px; stroke:currentColor; stroke-width:2.5; fill:none;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  </div>
+                  <h4 class="pillar-title">Omnichannel Vidyapeeth Network</h4>
+                </div>
+                <p class="pillar-desc">Expanding offline footprint to 353 centres. Offline registrations grew 42% YoY in FY26, bringing high-structure local classrooms to Tier-2 & Tier-3 students at 60% lower costs than legacy offline hubs.</p>
+              </div>
+              
+              <div class="pillar-card">
+                <div class="pillar-card-header">
+                  <div class="pillar-icon-box emerald">
+                    <svg viewBox="0 0 24 24" style="width:16px; height:16px; stroke:currentColor; stroke-width:2.5; fill:none;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                  </div>
+                  <h4 class="pillar-title">Ecosystem Diversification</h4>
+                </div>
+                <p class="pillar-desc">Operating in 16+ exam verticals each clearing ₹10 Cr+ in collections annually (e.g. UPSC OnlyIAS, PW Skills, State Boards). This reduces dependency on the core online JEE/NEET engine.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 1. Overview -->
+        <section class="section-pane" id="overview">
+          <div class="section-header">
+            <span class="section-subtitle">Core Identity</span>
+            <h2 class="section-title">Vertical Overview</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                <h3 class="card-title">What is this Vertical?</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-overview-text">-</p>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></div>
+                <h3 class="card-title">Why was it Created?</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-overview-why">-</p>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></div>
+                <h3 class="card-title">When was it Launched?</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-overview-launched">-</p>
+            </div>
+            <div class="dashboard-card" style="grid-column: 1 / -1;">
+              <div class="card-title-bar">
+                <div class="card-icon-box emerald"><svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg></div>
+                <h3 class="card-title">What Core Problem does it Solve?</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-overview-solves">-</p>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 2. Leadership -->
+        <section class="section-pane" id="leadership">
+          <div class="section-header">
+            <span class="section-subtitle">Governance</span>
+            <h2 class="section-title">Leadership & Stakeholders</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path></svg></div>
+                <h3 class="card-title">Vertical Leadership</h3>
+              </div>
+              <p style="font-size: 1.15rem; font-weight: 700; color: var(--text-light);" id="v-lead-name">-</p>
+              <p style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 0.5rem;" id="v-lead-role">-</p>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg></div>
+                <h3 class="card-title">Key Stakeholders Involved</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-lead-stakeholders">-</p>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 3. Target Audience -->
+        <section class="section-pane" id="target-audience">
+          <div class="section-header">
+            <span class="section-subtitle">Market Segmentation</span>
+            <h2 class="section-title">Target Audience & Personas</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle></svg></div>
+                <h3 class="card-title">Who are the Customers?</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-audience-customers">-</p>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path></svg></div>
+                <h3 class="card-title">Customer Segments</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-audience-segments">-</p>
+            </div>
+            <div class="dashboard-card" style="grid-column: 1 / -1; border-left: 4px solid var(--accent-amber);">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M18 21v-2a4 4 0 0 0-4-4H10a4 4 0 0 0-4 4v2"></path></svg></div>
+                <h3 class="card-title">Representative Student Persona</h3>
+              </div>
+              <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1.5rem; margin-top: 0.5rem;">
+                <div>
+                  <h4 style="color: var(--text-light); font-size: 1rem;" id="v-persona-name">-</h4>
+                  <p style="font-size: 0.8rem; color: var(--accent-amber); margin-top: 0.25rem;" id="v-persona-age">-</p>
+                  <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;" id="v-persona-profile">-</p>
+                </div>
+                <div>
+                  <p style="font-size: 0.88rem; line-height: 1.5; color: var(--text-secondary);" id="v-persona-story">-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 4. Products & Services -->
+        <section class="section-pane" id="products-services">
+          <div class="section-header">
+            <span class="section-subtitle">Catalog</span>
+            <h2 class="section-title">Products & Services</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><polygon points="12 2 2 22 12 18 22 22 12 2"></polygon></svg></div>
+                <h3 class="card-title">Online Offerings</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-products-online" data-color="pw-blue"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect></svg></div>
+                <h3 class="card-title">Offline Offerings</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-products-offline" data-color="purple"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+                <h3 class="card-title">Premium Services</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-products-premium" data-color="amber"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 5. Customer Acquisition -->
+        <section class="section-pane" id="customer-acquisition">
+          <div class="section-header">
+            <span class="section-subtitle">Inbound & Outbound Channels</span>
+            <h2 class="section-title">Customer Acquisition</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+                <h3 class="card-title">Organic Channels</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-acq-organic" data-color="pw-blue"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></div>
+                <h3 class="card-title">Paid Channels</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-acq-paid" data-color="purple"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg></div>
+                <h3 class="card-title">Referral Channels</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-acq-referral" data-color="amber"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box emerald"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></div>
+                <h3 class="card-title">Offline Channels</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-acq-offline" data-color="emerald"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 6. Lead Generation -->
+        <section class="section-pane" id="lead-generation">
+          <div class="section-header">
+            <span class="section-subtitle">Marketing Funnels</span>
+            <h2 class="section-title">Lead Generation Process</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card" style="grid-column: 1 / -1;">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg></div>
+                <h3 class="card-title">Lead Gen Workflow</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-leadgen-text">-</p>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg></div>
+                <h3 class="card-title">Forms & Landing Pages</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-leadgen-forms" data-color="purple"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M16.2 7.8l-2 2"></path></svg></div>
+                <h3 class="card-title">Campaigns & Contests</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-leadgen-campaigns" data-color="amber"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box emerald"><svg viewBox="0 0 24 24"><path d="M15.66 8H14V2h-4v6H8.34a1 1 0 0 0-.78 1.63l3.66 4.82a1 1 0 0 0 1.56 0l3.66-4.82A1 1 0 0 0 15.66 8z"></path><rect x="2" y="16" width="20" height="4" rx="1" ry="1"></rect></svg></div>
+                <h3 class="card-title">Webinars & Events</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-leadgen-webevents" data-color="emerald"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 7. Sales & Counselling -->
+        <section class="section-pane" id="sales-counselling">
+          <div class="section-header">
+            <span class="section-subtitle">Tele-counselling & objection handling</span>
+            <h2 class="section-title">Sales & Counselling Process</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></div>
+                <h3 class="card-title">Key Qualification Questions</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-sales-questions" data-color="pw-blue"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg></div>
+                <h3 class="card-title">Batch Recommendation Engine</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-sales-rec">-</p>
+            </div>
+            <div class="dashboard-card" style="grid-column: 1 / -1;">
+              <div class="card-title-bar">
+                <div class="card-icon-box rose"><svg viewBox="0 0 24 24"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg></div>
+                <h3 class="card-title">Common Objections & Handling</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-sales-objections" data-color="rose"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 8. Conversion Funnel -->
+        <section class="section-pane" id="conversion-funnel">
+          <div class="section-header">
+            <span class="section-subtitle">Metrics Pipeline</span>
+            <h2 class="section-title">Conversion Funnel</h2>
+          </div>
+          <div class="funnel-layout">
+            <div class="funnel-container" id="funnelChart"></div>
+            <div class="dashboard-card" style="height: 100%;">
+              <div class="card-title-bar">
+                <div class="card-icon-box rose"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>
+                <h3 class="card-title">Typical Conversion Challenges</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-funnel-challenges" data-color="rose"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 9. Revenue Model -->
+        <section class="section-pane" id="revenue-model">
+          <div class="section-header">
+            <span class="section-subtitle">Monetization Strategy</span>
+            <h2 class="section-title">Revenue Model</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg></div>
+                <h3 class="card-title">Revenue Streams</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-rev-streams" data-color="pw-blue"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg></div>
+                <h3 class="card-title">Pricing Model</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-rev-pricing">-</p>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><polyline points="17 11 22 16 17 21"></polyline><path d="M22 16H9.5A3.5 3.5 0 0 1 6 12.5v0A3.5 3.5 0 0 1 9.5 9H22"></path></svg></div>
+                <h3 class="card-title">Upselling Opportunities</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-rev-upsell" data-color="amber"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 10. Operations -->
+        <section class="section-pane" id="operations">
+          <div class="section-header">
+            <span class="section-subtitle">Backend operations</span>
+            <h2 class="section-title">Operations & Workflows</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg></div>
+                <h3 class="card-title">Teams Involved</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-ops-teams" data-color="pw-blue"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line></svg></div>
+                <h3 class="card-title">Daily Operational Workflows</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-ops-workflows" data-color="purple"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                <h3 class="card-title">Critical Business Processes</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-ops-processes" data-color="amber"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 11. Student Success -->
+        <section class="section-pane" id="student-success">
+          <div class="section-header">
+            <span class="section-subtitle">Post-purchase support</span>
+            <h2 class="section-title">Student Success & Retention</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card" style="grid-column: 1 / -1;">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg></div>
+                <h3 class="card-title">Post-Purchase Onboarding Process</h3>
+              </div>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);" id="v-success-onboard">-</p>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg></div>
+                <h3 class="card-title">Retention Strategy</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-success-retention" data-color="purple"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></div>
+                <h3 class="card-title">Engagement Strategy</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-success-engagement" data-color="amber"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box rose"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg></div>
+                <h3 class="card-title">Escalation Handling</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-success-escalations" data-color="rose"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 12. Data Generated -->
+        <section class="section-pane" id="data-generated">
+          <div class="section-header">
+            <span class="section-subtitle">Data Assets</span>
+            <h2 class="section-title">Data Generated (Business Metrics)</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg></div>
+                <h3 class="card-title">Lead Data</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-data-lead" data-color="pw-blue"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg></div>
+                <h3 class="card-title">Sales Data</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-data-sales" data-color="purple"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg></div>
+                <h3 class="card-title">Customer Data</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-data-customer" data-color="amber"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box emerald"><svg viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg></div>
+                <h3 class="card-title">Learning Data</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-data-learning" data-color="emerald"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box rose"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg></div>
+                <h3 class="card-title">Financial Data</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-data-financial" data-color="rose"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"></circle></svg></div>
+                <h3 class="card-title">Operational Data</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-data-operational" data-color="pw-blue"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 13. KPIs & Metrics -->
+        <section class="section-pane" id="kpis-metrics">
+          <div class="section-header">
+            <span class="section-subtitle">Performance</span>
+            <h2 class="section-title">Key Performance Indicators</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box"><svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon></svg></div>
+                <h3 class="card-title">Marketing KPIs</h3>
+              </div>
+              <div id="v-kpi-mktg"></div>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box purple"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+                <h3 class="card-title">Sales KPIs</h3>
+              </div>
+              <div id="v-kpi-sales"></div>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box amber"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect></svg></div>
+                <h3 class="card-title">Operations KPIs</h3>
+              </div>
+              <div id="v-kpi-ops"></div>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box emerald"><svg viewBox="0 0 24 24"><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                <h3 class="card-title">Student Success KPIs</h3>
+              </div>
+              <div id="v-kpi-success"></div>
+            </div>
+            <div class="dashboard-card" style="grid-column: 1 / -1;">
+              <div class="card-title-bar">
+                <div class="card-icon-box rose"><svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg></div>
+                <h3 class="card-title">Business & Financial KPIs</h3>
+              </div>
+              <div id="v-kpi-biz" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;"></div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 14. Challenges -->
+        <section class="section-pane" id="challenges">
+          <div class="section-header">
+            <span class="section-subtitle">Risks</span>
+            <h2 class="section-title">Challenges & Pain Points</h2>
+          </div>
+          <div class="card-grid">
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box rose"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line></svg></div>
+                <h3 class="card-title">Marketing Challenges</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-challenge-mktg" data-color="rose"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box rose"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line></svg></div>
+                <h3 class="card-title">Sales Challenges</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-challenge-sales" data-color="rose"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box rose"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line></svg></div>
+                <h3 class="card-title">Operations Challenges</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-challenge-ops" data-color="rose"></ul>
+            </div>
+            <div class="dashboard-card">
+              <div class="card-title-bar">
+                <div class="card-icon-box rose"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line></svg></div>
+                <h3 class="card-title">Retention Challenges</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-challenge-retention" data-color="rose"></ul>
+            </div>
+            <div class="dashboard-card" style="grid-column: 1 / -1;">
+              <div class="card-title-bar">
+                <div class="card-icon-box rose"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line></svg></div>
+                <h3 class="card-title">Scalability Challenges</h3>
+              </div>
+              <ul class="card-bullet-list" id="v-challenge-scale" data-color="rose"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 15. AI Opportunities -->
+        <section class="section-pane" id="ai-opportunities">
+          <div class="section-header">
+            <span class="section-subtitle">Efficiency Matrix</span>
+            <h2 class="section-title">AI Automation Opportunities</h2>
+          </div>
+          <div class="opportunities-table-wrapper">
+            <table class="opportunities-table">
+              <thead>
+                <tr>
+                  <th>Department</th>
+                  <th>Current Process</th>
+                  <th>AI Automation Opportunity</th>
+                  <th>Time Savings</th>
+                  <th>Cost Savings</th>
+                  <th>Expected Business Impact</th>
+                </tr>
+              </thead>
+              <tbody id="opportunitiesTableBody"></tbody>
+            </table>
+          </div>
+        </section>
+        
+        <!-- 16. Recommended AI Projects -->
+        <section class="section-pane" id="ai-projects">
+          <div class="section-header">
+            <span class="section-subtitle">Strategic Projects</span>
+            <h2 class="section-title">Top 10 AI Projects Roadmap</h2>
+          </div>
+          <div class="project-card-grid" id="projectsContainer"></div>
+        </section>
+        
+        <!-- 17. Interactions -->
+        <section class="section-pane" id="interactions">
+          <div class="section-header">
+            <span class="section-subtitle">Synergies</span>
+            <h2 class="section-title">Department Interactions</h2>
+          </div>
+          <div class="interactions-layout">
+            <div class="dept-list-panel">
+              <div class="dept-node-item active" data-dept="marketing">
+                <span class="dept-node-label">Marketing</span>
+                <span class="dept-node-indicator"></span>
+              </div>
+              <div class="dept-node-item" data-dept="sales">
+                <span class="dept-node-label">Sales</span>
+                <span class="dept-node-indicator"></span>
+              </div>
+              <div class="dept-node-item" data-dept="counselling">
+                <span class="dept-node-label">Counselling</span>
+                <span class="dept-node-indicator"></span>
+              </div>
+              <div class="dept-node-item" data-dept="ops">
+                <span class="dept-node-label">Business Operations</span>
+                <span class="dept-node-indicator"></span>
+              </div>
+              <div class="dept-node-item" data-dept="tech">
+                <span class="dept-node-label">Technology</span>
+                <span class="dept-node-indicator"></span>
+              </div>
+              <div class="dept-node-item" data-dept="success">
+                <span class="dept-node-label">Student Success</span>
+                <span class="dept-node-indicator"></span>
+              </div>
+              <div class="dept-node-item" data-dept="finance">
+                <span class="dept-node-label">Finance</span>
+                <span class="dept-node-indicator"></span>
+              </div>
+            </div>
+            <div class="dept-details-panel">
+              <h3 class="flow-detail-title" id="interactionDetailTitle">Marketing</h3>
+              <p class="flow-detail-text" id="interactionDetailText" style="margin-top: 1rem;">-</p>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 18. Business Flow -->
+        <section class="section-pane" id="business-flow">
+          <div class="section-header">
+            <span class="section-subtitle">End-to-End Pipeline</span>
+            <h2 class="section-title">Complete Business Flow</h2>
+          </div>
+          <div class="flow-diagram-container">
+            <div class="flow-stage-list" id="flowStageList"></div>
+          </div>
+          <div class="flow-detail-pane">
+            <h3 class="flow-detail-title" id="flowDetailTitle">Workflow Stage</h3>
+            <p class="flow-detail-text" id="flowDetailText">Click on a stage node above to examine its operational steps, triggers, and key KPIs.</p>
+          </div>
+        </section>
+        
+        <!-- 19. SWOT Analysis -->
+        <section class="section-pane" id="swot">
+          <div class="section-header">
+            <span class="section-subtitle">Strategic Matrix</span>
+            <h2 class="section-title">SWOT Analysis</h2>
+          </div>
+          <div class="swot-grid">
+            <div class="swot-panel s">
+              <div class="swot-panel-header">
+                <span class="swot-icon">S</span>
+                <h3 class="swot-title">Strengths</h3>
+              </div>
+              <ul class="card-bullet-list" id="swot-s-list" data-color="emerald"></ul>
+            </div>
+            <div class="swot-panel w">
+              <div class="swot-panel-header">
+                <span class="swot-icon">W</span>
+                <h3 class="swot-title">Weaknesses</h3>
+              </div>
+              <ul class="card-bullet-list" id="swot-w-list" data-color="rose"></ul>
+            </div>
+            <div class="swot-panel o">
+              <div class="swot-panel-header">
+                <span class="swot-icon">O</span>
+                <h3 class="swot-title">Opportunities</h3>
+              </div>
+              <ul class="card-bullet-list" id="swot-o-list" data-color="pw-blue"></ul>
+            </div>
+            <div class="swot-panel t">
+              <div class="swot-panel-header">
+                <span class="swot-icon">T</span>
+                <h3 class="swot-title">Threats</h3>
+              </div>
+              <ul class="card-bullet-list" id="swot-t-list" data-color="amber"></ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 20. Executive Summary -->
+        <section class="section-pane" id="executive-summary">
+          <div class="section-header">
+            <span class="section-subtitle">Report Summary</span>
+            <h2 class="section-title">Executive Summary</h2>
+          </div>
+          
+          <div class="executive-summary-container">
+            <div class="es-header">
+              <div class="es-title-group">
+                <h2 id="es-vertical-name">JEE/NEET/Foundation</h2>
+                <p>PW Vertical Strategy Brief</p>
+              </div>
+              <div class="es-meta">
+                <p>Status: Confidential</p>
+                <p>Date: June 13, 2026</p>
+              </div>
+            </div>
+            
+            <div class="es-section">
+              <h3 class="es-section-title">Strategic Assessment Overview</h3>
+              <p style="font-size: 0.88rem; line-height: 1.6; color: #334155; margin-bottom: 0.5rem;" id="es-summary-text">-</p>
+            </div>
+            
+            <div class="es-grid">
+              <div class="es-section">
+                <h3 class="es-section-title">Top Strategic Priorities</h3>
+                <ul class="es-bullet-list" id="es-priorities-list"></ul>
+              </div>
+              
+              <div class="es-section">
+                <h3 class="es-section-title">12-Month Performance Targets</h3>
+                <ul class="es-bullet-list" id="es-metrics-list"></ul>
+              </div>
+            </div>
+          </div>
+          
+          <button class="es-print-btn" onclick="triggerPrint()">
+            <svg viewBox="0 0 24 24"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            <span>Print Strategy Brief</span>
+          </button>
+        </section>
+        
+      </div>
+    </main>
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
